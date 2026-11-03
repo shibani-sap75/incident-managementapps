@@ -40,7 +40,7 @@ module.exports = class ProcessorService extends cds.ApplicationService {
       console.log('Before CREATE/UPDATE Customer', req.data)
     })
     this.after('READ', Customer, async (customer, req) => {
-      console.log('After READ Customer', customer)
+     // console.log('After READ Customer', customer)
     })
 
 
